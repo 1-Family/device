@@ -44,6 +44,9 @@ PRODUCT_COPY_FILES += \
 	device/moto/shamu/atmel_mxt_ts.idc:system/usr/idc/atmel_mxt_ts.idc
 
 PRODUCT_COPY_FILES += \
+    device/moto/shamu/bootanimation.zip:system/media/bootanimation.zip
+
+PRODUCT_COPY_FILES += \
     device/moto/shamu/audio_policy.conf:system/etc/audio_policy.conf \
     device/moto/shamu/audio_effects.conf:system/etc/audio_effects.conf
 

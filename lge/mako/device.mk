@@ -61,6 +61,9 @@ PRODUCT_COPY_FILES += \
 	device/lge/mako/init.mako.wifi.sh:system/etc/init.mako.wifi.sh
 
 PRODUCT_COPY_FILES += \
+    device/lge/mako/bootanimation.zip:system/media/bootanimation.zip
+
+PRODUCT_COPY_FILES += \
 	device/lge/mako/audio_policy.conf:system/etc/audio_policy.conf
 
 PRODUCT_COPY_FILES += \
